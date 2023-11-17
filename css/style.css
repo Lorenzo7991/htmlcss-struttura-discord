@@ -1,4 +1,170 @@
-/* html/css response test */
-body{
-    background-color: yellow;
+/* CSS Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+/* utils */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    border: var(--brd-space) dashed black;
+}
+
+
+.main {
+    min-height: 320px;
+    border: var(--brd-space) dashed black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.main-hd {
+    min-height: 290px;
+    border: var(--brd-space) dashed black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.main-recap {
+    min-height: 500px;
+    border: var(--brd-space) dashed black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.main-ref{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 320px;
+    border: var(--brd-space) dashed black;
+    padding: 30px 0;
+    
+}
+/* main body colors*/
+.main-hd.header {
+    background-color: blue;
+}
+
+.main.voice-channels {
+    background-color:rgb(211, 211, 211);
+}
+
+.main-recap.tech-recap {
+    background-color:rgb(211, 211, 211);
+}
+
+
+/* main footer color */
+.main.footer {
+    background-color: rgb(43, 40, 40);
+}
+
+/* header */
+header {
+    min-height: 50px;
+    background-color:  rgb(173, 216, 230);
+}
+
+.flex-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: var(--space-xl);
+    padding: var(--space-s)
+}
+
+.head-logo {
+    flex-basis: 15%;
+    background-color: goldenrod;
+    border: var(--brd-space) dashed black;
+}
+
+.head-link {
+    flex-basis: 40%;
+    display: flex;
+
+    background-color: goldenrod;
+    border: var(--brd-space) dashed black;
+}
+
+.head-login {
+    flex-basis: 15%;
+    background-color: goldenrod;
+    border: var(--brd-space) dashed black;
+}
+
+
+/* main content */
+.head-box {
+    flex-basis: 50%;
+    background-color: rgb(238, 130, 238);
+    border: var(--brd-space) dashed black;
+}
+
+.text-box {
+    flex-basis: 40%;
+    background-color: rgb(30, 144, 255);
+    border: var(--brd-space) dashed black;
+}
+
+.pic-box {
+    flex-basis: 25%;
+    background-color: rgb(255, 192, 203);
+    border: var(--brd-space) dashed black;
+}
+
+.recap-box {
+    flex-basis: 65%;
+    background-color: green;
+    border: var(--brd-space) dashed black;
+}
+
+
+/* main footer */
+.social-box {
+    flex-basis: 20%;
+    background-color: rgb(237, 92, 116);
+    border: var(--brd-space) dashed black;
+}
+
+
+.reference-box {
+    display: flex;
+    flex-basis: 45%;
+    padding: 0px;
+    background-color: rgb(23, 174, 174);
+    border: var(--brd-space) dashed black;
+}
+/* main footer reference's */
+.main-reference{
+    flex-basis: 30%;
+    border: var(--brd-space) dashed black;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    min-height: 80px;
+    background-color: rgb(43, 40, 40);
+
+}
+
+.flex-footer {
+    flex-basis: 65%;
+    background-color: rgb(110, 228, 110);
+    border: var(--brd-space) dashed black;
+    margin-top: 20px;
+
 }

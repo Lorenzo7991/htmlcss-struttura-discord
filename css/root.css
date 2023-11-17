@@ -1,0 +1,8 @@
+/* CSS root */
+:root{
+    --space-s: 15px;
+    --space-m: 20px;
+    --space-x: 25px;
+    --space-xl: 30px;
+    --brd-space: 1px;
+}
